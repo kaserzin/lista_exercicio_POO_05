@@ -1,1 +1,5 @@
-# lista_exercicio_POO_05
+Questao 1:
+<br>A partir do Java 8 foi possível implementar métodos com corpo dentro das interfaces, utilizando os modificadores default e static. Os métodos default permitem adicionar funcionalidades às interfaces sem obrigar todas as classes que já as implementam a modificar seu código. Já os métodos static pertencem à própria interface e podem ser chamados diretamente por ela, sem precisar criar um objeto. Esses recursos tornam as interfaces mais flexíveis e facilitam a manutenção e evolução do código.<br>
+
+Questao 2:
+<br>As interfaces ajudam na construçao de sistemas desacoplados porque permitem que diferentes classes sigam um mesmo padrao de funcionamento sem depender diretamente de uma implementaçao especifica. Isso facilita a manutençao, pois é possível substituir uma classe por outra que implemente a mesma interface sem precisar alterar grande parte do sistema. Um exemplo prático seria um sistema de pagamentos que utiliza uma interface Pagamento, implementada por classes como PagamentoPix, PagamentoCartao e PagamentoBoleto. Dessa forma, o sistema pode trabalhar com diferentes formas de pagamento sem depender diretamente de uma classe concreta, tornando o código mais organizado, flexível e fácil de expandir.
